@@ -30,9 +30,9 @@ public class AppMain {
     	
     	log.info("start run");
     	
-    	main.mongoClient = new MongoClient("172.16.14.35", 27017); /* comment this line */
+    	main.mongoClient = new MongoClient("ba lam", 27017); /* comment this line */
     	
-//    	main.mongoClient = new MongoClient("10.10.10.186", 27017);
+//    	main.mongoClient = new MongoClient("oooo", 27017);
     	
     	
     	
@@ -46,7 +46,7 @@ public class AppMain {
     	main.mongoClient.close();
     	
     	// open connector 34
-    	main.mongoClient = new MongoClient("172.16.14.34", 27017); /* comment this line */
+    	main.mongoClient = new MongoClient("ba tu", 27017); /* comment this line */
     	UpdateStoresHelper.mongoDatabase = main.mongoClient.getDatabase("bignoti_db");
     	
     	
